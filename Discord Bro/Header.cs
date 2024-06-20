@@ -13,12 +13,12 @@ namespace Discord_Bro
         {
             isInit = true;
             logo.Add(@"", Console.ForegroundColor);
-            logo.Add(@" ███╗   ██╗██╗   ██╗██╗  ██╗███████╗    ██████╗  ██████╗ ████████╗", ConsoleColor.Cyan);
-            logo.Add(@" ████╗  ██║██║   ██║██║ ██╔╝██╔════╝    ██╔══██╗██╔═══██╗╚══██╔══╝", ConsoleColor.Cyan);
-            logo.Add(@" ██╔██╗ ██║██║   ██║█████╔╝ █████╗      ██████╔╝██║   ██║   ██║", ConsoleColor.Cyan);
-            logo.Add(@" ██║╚██╗██║██║   ██║██╔═██╗ ██╔══╝      ██╔══██╗██║   ██║   ██║ ", ConsoleColor.DarkCyan);
-            logo.Add(@" ██║ ╚████║╚██████╔╝██║  ██╗███████╗    ██████╔╝╚██████╔╝   ██║", ConsoleColor.DarkCyan);
-            logo.Add(@" ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚═════╝  ╚═════╝    ╚═╝", ConsoleColor.DarkCyan);
+            logo.Add(@"██████╗  █████╗ ██████╗ ██╗  ██╗    ███████╗███╗   ██╗███████╗██████╗  ██████╗██╗   ██╗", ConsoleColor.Red);
+            logo.Add(@"██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝    ██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝", ConsoleColor.Red);
+            logo.Add(@"██║  ██║███████║██████╔╝█████╔╝     █████╗  ██╔██╗ ██║█████╗  ██████╔╝██║  ███╗╚████╔╝ ", ConsoleColor.Red);
+            logo.Add(@"██║  ██║██╔══██║██╔══██╗██╔═██╗     ██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██║   ██║ ╚██╔╝   ", ConsoleColor.Red);
+            logo.Add(@"██████╔╝██║  ██║██║  ██║██║  ██╗    ███████╗██║ ╚████║███████╗██║  ██║╚██████╔╝  ██║   ", ConsoleColor.Red);
+            logo.Add(@"╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ", ConsoleColor.Red);
             logo.Add($" [miltinh0c] & [deflationz] (v{Assembly.GetExecutingAssembly().GetName().Version})\n", ConsoleColor.Red);
         }
 
